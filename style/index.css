@@ -44,16 +44,10 @@ table {
 
 h1 {
 	display: flex;
-	font-family: Garamond;
-	font-size: 24px; 
-	font-style: normal; 
-	font-variant: normal; 
-	font-weight: 700; 
-	line-height: 26.4px;
+	align-items: center;
 	justify-content: center;
-	font-size: 100px;
 	box-sizing: border-box;
-	border: 2px solid black;
-	width: 400px;
-	margin: 10px 0px 0px 0px; 
+	border: 5px solid black;
+font-size: 100px;
+	margin: 10px 10px 0px 10px; 
 }
