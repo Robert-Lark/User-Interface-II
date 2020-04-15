@@ -84,12 +84,41 @@ h2 {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 50%;
+  	width: 100%;
 	border: 2px solid black;
 	height: 100%;
 }
 
-.lowerimages {
-	display: block;
+
+.smallerimages {
+	display: flex;
+	justify-content: space-evenly;
 	
+}
+
+div img {
+	border: 2px solid block;
+	 width: 90%;
+	 height: 80%;
+	 border: 2px solid black;
+	margin: 20px 0px 20px 0px
+	}
+
+.footer {
+	border: 2px solid black;
+	height: 30px;
+	background-color: red;
+	text-align: center;
+	color: blue;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 20px 0px;
+}
+
+.imagedes {
+	display: flex;
+	font-size: 50px;
+border: 2px solid black;
+margin: 150px 50px 300px 0px; 
+text-align: center;
+padding: 20px 20px 0px 20px;
 }
