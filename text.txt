@@ -1,0 +1,15 @@
+describe the differences in fixed, fluid, adaptive, and responsive layouts:
+
+fixed: These are sites with locked in parameters that do not function correctly 
+when the screen size shrinks dramatically - like when viewing on a mobile.
+These are the least responsive kind of website.
+
+fluid: Fluid website design removes the hard coded px widths using instead %. These are 
+slightly more responsive but still encounter issues when the screen shrinks a great deal.
+
+adaptive: Adaptive designed websites use media breakpoints, these allow for the writing of css 
+based on the size of the screen. Contrary to what you might think, adaptive layouts are fixed.
+They change depending on the screensize. Different code will run depending on the users device.
+
+responsive: Resposive website design takes every single prior types of layout and combines it 
+together. Responsive designs are the standard in todays design space. 
