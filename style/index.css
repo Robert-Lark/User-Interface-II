@@ -127,6 +127,9 @@ div p {
 }
 
 @media (max-width: 800px) {
+	h2 {
+		font-size: 5rem;
+	}
 	div img {
 		width: 80%;
 		height: 85%;
@@ -138,7 +141,7 @@ div p {
 		display: flex;
 		font-size: 2rem;
 		border: 2px solid black;
-		margin: 40px 20px 10px 10px;
+		margin: 40px 20px 40px 10px;
 		box-sizing: border-box;
 		border: 40px 40px 40px 40px;  
 		text-align: center;
@@ -156,6 +159,9 @@ div p {
 	h1 {
 		font-size: 8rem;
 	}
+	h2 {
+		font-size: 4rem;
+	}
 	div img {
 		width: 80%;
 		height: 85%;
@@ -165,9 +171,9 @@ div p {
 	}
 	div p {
 		display: flex;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		border: 2px solid black;
-		margin: 10px 20px 10px 10px;
+		margin: 15px 20px 10px 10px;
 		box-sizing: border-box;
 		border: 40px 40px 40px 40px;  
 		text-align: center;
