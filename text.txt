@@ -1,0 +1,27 @@
+describe the differences in fixed, fluid, adaptive, and responsive layouts:
+
+fixed: These are sites with locked in parameters that do not function correctly 
+when the screen size shrinks dramatically - like when viewing on a mobile.
+These are the least responsive kind of website.
+
+fluid: Fluid website design removes the hard coded px widths using instead %. These are 
+slightly more responsive but still encounter issues when the screen shrinks a great deal.
+
+adaptive: Adaptive designed websites use media breakpoints, these allow for the writing of css 
+based on the size of the screen. Contrary to what you might think, adaptive layouts are fixed.
+They change depending on the screensize. Different code will run depending on the users device.
+
+responsive: Resposive website design takes every single prior types of layout and combines it 
+together. Responsive designs are the standard in todays design space. 
+
+units of measurement
+
+px: - pixel (1px = 1/96th of 1inch) - this unit of measurement is relative to viewing distance for 
+low dpi devices 1 pxl is one pixel dot on the display.
+em: Relative to the font-size of the parent element (2em means 2 times the size of the parent elements current font)
+rem: Relative to font-size of the root element. The root font size defaults to 16 unless changed in the html tag.
+%: Relative to the parent element. 
+vw: View Width - This unit of measurement is represented as a percentage of the full viewport width. 
+10vw Will resolve to 10% of the current viewport width, or 48px on a phone that is 480px wide.
+vh: View Height -This unit of measurement is represented as a percentage of the full viewport height. 
+10vh will resolve to 10% of the current viewport height.
